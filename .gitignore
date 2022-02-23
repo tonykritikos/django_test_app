@@ -1,0 +1,38 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+ 
+# Python runtime files
+__pycache__
+ 
+# Exclude libraries and external dependencies
+# ------------------------
+# Bootstrap builder
+CACHE/
+# NodeJS modules for Angular
+/node_modules
+ 
+# Assets folder contents only
+assets/*
+# Use .gitkeep empty file to preserve empty folders if required
+!.gitkeep
+# exceptions
+!assets/version.txt
+ 
+# Local resources
+# ---------------
+# All files with the .local extension
+*.local
+ 
+# Project documentation
+resources/docs/*
+# Visual Paradigm
+!resources/docs/*.vpp
+ 
+# Local DB
+db.sqlite3
+ 
+# Python active environment
+env_active.py
